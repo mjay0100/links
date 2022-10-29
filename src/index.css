@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .links {
+    @apply bg-[#EAECF0] py-3 px-5 w-full my-5 rounded-sm text-[16px] text-[#101828];
+  }
+}
